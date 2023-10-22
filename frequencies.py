@@ -6,6 +6,4 @@ def frequencies(items):
     for value in items:
         if value in frequencies.keys():
             frequencies[value] += 1
-        else:
-            frequencies[value] = 1
     return frequencies
